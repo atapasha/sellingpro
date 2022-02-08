@@ -13,4 +13,8 @@ export class AuthService {
      console.log('login credentials',loginCredentials);
     return of(loginCredentials)
   }
+  register(user:any){
+    
+
+  }
 }
